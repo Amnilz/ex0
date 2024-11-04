@@ -1,4 +1,4 @@
-#include <stdio.h>  
+#include <stdio.h> 
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
     print_text_to_console(text);
     free_text(text);
 
-return 0;
+    return 0;
 }
 
 //--------------------------------------------------------
@@ -157,7 +157,7 @@ void free_text(Text *text)
     free(text->_string);
     // שחרור מבנה text
     free(text);
-        }
+}
 //--------------------------------------------------------
 // פונקציה למיון מהיר של מערך השורות לפי המספרים בתחילתן
 void quick_sort(Text *text, int low, int high)
@@ -186,7 +186,7 @@ int partition(Text *text, int low, int high)
             text->_string[i] = text->_string[j];
             text->_string[j] = temp;
         }
-}
+    }
 
     // החלפה בין text->_string[i + 1] ו-text->_string[high] (pivot)
     char *temp = text->_string[i + 1];

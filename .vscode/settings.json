@@ -1,3 +1,4 @@
 {
-    "C_Cpp.default.compilerPath": "/home/amni/ex0/ex0.c"
+    "C_Cpp.default.compilerPath": "/home/amni/ex0/ex0.c",
+    "editor.formatOnType": true
 }
